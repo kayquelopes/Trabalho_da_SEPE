@@ -59,6 +59,13 @@ header {
 }
 
 /*---------------------------------body------------------------------------*/
-main{
+.container{
     background-color: #000000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+section{
+    min-width: 500px;
+    color: white;
 }
