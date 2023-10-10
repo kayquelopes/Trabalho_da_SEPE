@@ -57,7 +57,7 @@ header {
 }
 
 figure {
-    margin: 5.6cm 0 4.6cm 5cm;
+    margin: 5.6cm 0 8cm 5cm;
 
 }
 
@@ -98,13 +98,40 @@ figure {
 
 footer {
     background-color: #1f1f1f;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     color: white;
 }
-
-.divididodois {
+.divididoemtres{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5.8cm;
+    margin-top: 30px;
+}
+.contatos{
+    font-size: 40pt;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.titlefooter{
+    color: #ffffff;
+    text-align: center;
+    font-size: 2cm;
+    text-shadow: #1c8e92 0.1em 0.01em;
+}
+.contentfooter{
+    font-size: 15pt;
+   
+}
+.margin{
+    margin: 3.6cm 0 1cm 0.3cm;
 
+}
+.margin2{
+    margin: 3.6cm 0 1cm 0.1cm;
+}
+.margin3{
+    margin: 3.6cm 0.3cm 1cm 0.1cm;
+}
+.imgfooter{
+    width: 200px;
+    
 }
