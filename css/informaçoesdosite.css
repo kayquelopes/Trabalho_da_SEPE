@@ -1,7 +1,7 @@
 .titleheader{
     color: #ffffff;
-    margin: 5.8cm 0px 0px 0px;
-    text-align: justify;
+    margin: 4cm 0px 0px 0px;
+    text-align: center;
     font-size: 2cm;
     text-shadow: #1c8e92 0.1em 0.01em;
 }
@@ -15,10 +15,11 @@
     background-color: #000000;
     color: #ffffff;
     padding: 9px;
-    position: fixed;
-    width: 53cm;
+    width: 50.4cm;
     height: 1.5cm;
-    border: #ffffff 0.5px solid;
+    position: fixed;
+    top: 0px;
+    
 }
 
 #menu ul {
@@ -44,4 +45,16 @@
 
 #menu li a:hover {
     color: #1c8e92;
+}
+html{
+    background-color: #1f1f1f;
+}
+.content{
+    color: white;
+    font-size: 15pt;
+    margin-right: 5cm;
+    margin-left: 5cm;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align: justify;
 }
