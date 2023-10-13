@@ -14,8 +14,7 @@
     color: #ffffff;
     padding: 9px;
     position: fixed;
-    width: 53cm;
-    height: 1.5cm;
+    width: 100%;
     border: #ffffff 0.5px solid;
 }
 
@@ -31,7 +30,7 @@
 }
 
 #menu li {
-    margin-right: 20px;
+    margin: 0 10px;
 }
 
 #menu li a {
