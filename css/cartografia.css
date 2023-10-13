@@ -12,7 +12,6 @@
     position: fixed;
     width: 53cm;
     height: 1.5cm;
-    border: #ffffff 0.5px solid;
 }
 
 #menu ul {
@@ -60,8 +59,25 @@ header {
 
 /*---------------------------------body------------------------------------*/
 body{
-    background-color: #000000;
+    background-color: #181818;
 }
 main{
-    background-color: #000000;
+    background-color: #181818;
+}
+section{
+    border: 1px solid white;
+    color: white;
+    min-height: 1000px;
+}
+#section1{
+    padding:100px 20px;
+}
+.container{
+    padding-left: 8vh;
+}
+img{
+    min-width: 267px;
+    min-height: 171px;
+    max-width: 267px;
+    max-height: 171px;
 }
