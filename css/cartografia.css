@@ -1,4 +1,7 @@
 /*------------------------------header-------------------------------------*/
+::-webkit-scrollbar {
+    width: 0px;
+}
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +15,6 @@
     position: fixed;
     width: 53cm;
     height: 1.5cm;
-    border: #ffffff 0.5px solid;
 }
 
 #menu ul {
@@ -39,9 +41,12 @@
 #menu li a:hover {
     color: #1c8e92;
 }
-
+#bg-img{
+    min-height: 105vh;
+    max-width: 192.36vh;
+    max-height: 100000px;
+}
 header {
-    background-image: url("https://www.unisuam.edu.br/wp-content/uploads/2021/08/historia_e_geografia.png");
     height: 1000px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,9 +64,29 @@ header {
 }
 
 /*---------------------------------body------------------------------------*/
-body{
-    background-color: #000000;
-}
+
 main{
-    background-color: #000000;
+    background-color: #282828;
+}
+section{
+    border: 1px solid;
+    color: rgb(0, 0, 0);
+    min-height: 1000px;
+ 
+}
+#section1{
+    background-color: #ffffff;
+
+    padding:30px 100px;
+   
+    margin: 50px 350px;
+}
+.container{
+    padding-left: 8vh;
+}
+img{
+    min-width: 267px;
+    min-height: 171px;
+    max-width: 267px;
+    max-height: 171px;
 }
