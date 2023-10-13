@@ -13,8 +13,7 @@
     color: #ffffff;
     padding: 9px;
     position: fixed;
-    width: 53cm;
-    height: 1.5cm;
+    width: 100%;
 }
 
 #menu ul {
@@ -42,9 +41,8 @@
     color: #1c8e92;
 }
 #bg-img{
-    min-height: 105vh;
-    max-width: 192.36vh;
-    max-height: 100000px;
+    height: 100%;
+    width: 100%;
 }
 header {
     height: 1000px;
@@ -83,10 +81,4 @@ section{
 }
 .container{
     padding-left: 8vh;
-}
-img{
-    min-width: 267px;
-    min-height: 171px;
-    max-width: 267px;
-    max-height: 171px;
 }
