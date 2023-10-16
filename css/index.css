@@ -49,7 +49,10 @@ header {
 }
 
 /*---------------------------------body------------------------------------*/
-.container {
+body {
+    position: relative; 
+}
+.container-local {
     background-color: #1f1f1f;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -57,12 +60,12 @@ header {
 }
 
 figure {
-    margin: 5.6cm 0 8cm 4cm;
+    margin: 6.6cm 0 9cm 4cm ;
 
 }
 
 .imagemglobo {
-    width: 350px;
+    width: 400px;
 
 }
 
@@ -100,16 +103,11 @@ footer {
     background-color: #1f1f1f;
     color: white;
 }
-.divididoemtres{
+.divididoem4{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 5.8cm;
+    grid-template-columns: 1fr 1fr;
     margin-top: 30px;
-}
-.contatos{
-    font-size: 40pt;
-    color: #ffffff;
-    margin-bottom: 20px;
+    
 }
 .titlefooter{
     color: #ffffff;
@@ -121,17 +119,21 @@ footer {
     font-size: 15pt;
    
 }
-.margin{
-    margin: 3.6cm 0 1cm 0.3cm;
-
+#ajustemargin1{
+    width: 450px;
+   margin-left: 5.8cm;
 }
-.margin2{
-    margin: 3.6cm 0 1cm 0.1cm;
+#ajustemargin2{
+    width: 450px;
+   margin-left: 2cm;
 }
-.margin3{
-    margin: 3.6cm 0.3cm 1cm 0.1cm;
+#ajustemargin3{
+    width: 450px;
+   margin-left: 5.8cm;
+   margin-top: 30px;
 }
-.imgfooter{
-    width: 200px;
-    
+#ajustemargin4{
+    width: 450px;
+   margin-left: 2cm;
+   margin-top: 30px;
 }
