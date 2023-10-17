@@ -29,6 +29,7 @@
 }
 
 #menu li {
+    font-size:20px;
     margin-right: 20px;
 }
 
@@ -42,15 +43,10 @@
     color: #1c8e92;
 }
 #bg-img{
-    height: 100%;
+    height: 100vh;
     width: 100%;
 }
-header {
-    height: 1000px;
-    background-size: cover;
-    background-repeat: no-repeat;
 
-}
 
 #h1index {
     color: white;
@@ -69,9 +65,6 @@ main{
 }
 section{
     border: 1px solid;
-    color: rgb(0, 0, 0);
-    min-height: 1000px;
- 
 }
 #section1{
     background-color: #ffffff;
@@ -82,4 +75,19 @@ section{
 }
 .container{
     padding-left: 8vh;
+}
+#bg-div-img{
+    max-height: 100vh;
+}
+h1{
+
+    font-size: 0.8cm;
+}
+p{
+    font-size: 0.6cm;
+    text-indent: 1.5cm;
+    line-height: 35px;
+  }
+li{
+    font-size: 0.45cm;
 }
