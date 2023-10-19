@@ -1,13 +1,13 @@
-/*------------------------------header-------------------------------------*/
-::-webkit-scrollbar {
-    width: 0px;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto';
+    color: white;
 }
-
 
 #menu {
     background-color: #000000;
@@ -15,6 +15,7 @@
     padding: 9px;
     position: fixed;
     width: 100%;
+    border: #ffffff 0.5px solid;
 }
 
 #menu ul {
@@ -29,7 +30,7 @@
 }
 
 #menu li {
-    margin-right: 20px;
+    margin: 0 10px;
 }
 
 #menu li a {
@@ -41,45 +42,44 @@
 #menu li a:hover {
     color: #1c8e92;
 }
-#bg-img{
-    height: 100%;
-    width: 100%;
-}
+
 header {
-    height: 1000px;
+    display: flex;
+    align-items: center;
     background-size: cover;
     background-repeat: no-repeat;
-
+    flex-direction: column;
 }
 
 #h1index {
     color: white;
-    position: absolute;
     bottom: 3cm;
     left: 5cm;
     text-shadow: rgb(0, 0, 0) 0.1em 0.01em;
-    font-size: 2.5cm;
-
+    font-size: 1.5cm;
+    margin: 12px auto;
+    text-align: center;
 }
 
-/*---------------------------------body------------------------------------*/
+img{
+    width: 70%;
+    margin-top: 70px;
+    border-radius: 12px;
+}
 
+#div-header{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body{
+    background-color: #000000;
+}
 main{
-    background-color: #282828;
+    background-color: #000000;
 }
-section{
-    border: 1px solid;
-    color: rgb(0, 0, 0);
-    min-height: 1000px;
- 
-}
-#section1{
-    background-color: #ffffff;
-
-    padding:30px 100px;
-   
-    margin: 50px 350px;
-}
-.container{
-    padding-left: 8vh;
-}
+#questoes li {
+    padding: 12px;
+}   
