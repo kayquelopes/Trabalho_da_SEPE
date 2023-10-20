@@ -1,52 +1,87 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <style>
-  body {
-      position: relative; 
-  }
-  </style>
+  <link rel="stylesheet" href="css/index.css">
+  <title>Geographic World</title>
+  <link rel="shortcut icon" href="pastaimg/img_index/Logo.png" type="logo">
 </head>
+
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <header id="Inicio" class="container-fluid">
+        <nav id="menu" class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#Inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#meio">perfil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#rodape">Contatos</a></li>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-  <div class="container-fluid">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#section1">Section 1</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#section2">Section 2</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#section3">Section 3</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+                </ul>
+            </div>
+        </nav>
 
-<div id="section1" class="container-fluid bg-success text-white" style="padding:100px 20px;">
-  <h1>Section 1</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-
-<div id="section2" class="container-fluid bg-warning" style="padding:100px 20px;">
-  <h1>Section 2</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-
-<div id="section3" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
-  <h1>Section 3</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-
+    </header>
+    <main class="container-fluid container-local" id="meio">
+        <section>
+            <figure><img class="imagemglobo" src="pastaimg/img_index/imagemglobo.jpg" alt=""></figure>
+        </section>
+        <section>
+            <h2 class="titlemain">Sobre o site</h2>
+            <p class="contentmain">
+                informações sobre o site, conteúdos de Geografia e etc...
+            </p>
+            <button class="buttonindex"><a class="linkconteudo" href="informaçoesdosite.html">Continuar</a></button>
+        </section>
+    </main>
+    <footer id="rodape" class="container-fluid">
+        <h2 class="titlefooter">Contatos dos criadores do site</h2>
+        <section>
+            <div class="container-fluid mt-3 divididoem4">
+                <div class="card" id="ajustemargin1">
+                    <img class="card-img-top" src="./pastaimg/img_index/fotokayque.png" alt="Card image"
+                        style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Kayque Alerrandro</h4>
+                        <p class="card-text">Estudante do 1 ano do IFC - Instituto Federal Catarinense, campus Araquari.
+                            <br> Curso: tecnico em informatica para internet</p>
+                        <a href="https://github.com/kayquelopes" class="btn btn-primary">Git Hub</a>
+                    </div>
+                </div>
+                <div class="card" id="ajustemargin2">
+                    <img class="card-img-top" src="./pastaimg/img_index/fotokayque.png" alt="Card image"
+                        style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Matheus Liesenberg </h4>
+                        <p class="card-text">Estudante do 1 ano do IFC - Instituto Federal Catarinense, campus Araquari.
+                            <br> Curso: tecnico em informatica para internet</p>
+                        <a href="https://github.com/matheusliesenberg" class="btn btn-primary">Git Hub</a>
+                    </div>
+                </div>
+                <div class="card" id="ajustemargin3">
+                    <img class="card-img-top" src="./pastaimg/img_index/fotokayque.png" alt="Card image"
+                        style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Matheus Hodecker</h4>
+                        <p class="card-text">Estudante do 1 ano do IFC - Instituto Federal Catarinense, campus Araquari.
+                            <br> Curso: tecnico em informatica para internet</p>
+                        <a href="https://github.com/
+                      matheushodecker" class="btn btn-primary">Git Hub</a>
+                    </div>
+                </div>
+                <div class="card" id="ajustemargin4">
+                    <img class="card-img-top" src="./pastaimg/img_index/fotokayque.png" alt="Card image"
+                        style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Matheus Lopes</h4>
+                        <p class="card-text">Estudante do 1 ano do IFC - Instituto Federal Catarinense, campus Araquari.
+                            <br> Curso: tecnico em informatica para internet</p>
+                        <a href="https://github.com/matheuslopesduarte" class="btn btn-primary">Git Hub</a>
+                    </div>
+                </div>
+        </section>
+    </footer>
 </body>
 </html>
