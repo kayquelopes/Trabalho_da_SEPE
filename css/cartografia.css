@@ -92,7 +92,6 @@ li{
     font-size: 0.45cm;
 }
 video{
-    max-width: 965px;
-
+    width: 100%;
 
 }

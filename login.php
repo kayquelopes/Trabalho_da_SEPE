@@ -27,8 +27,10 @@ include('php/configuraçoes.php');
             setcookie('upaymn', $row['upaymn'], time() + (86400 * 30), "/");
             setcookie('upazmn', $row['upazmn'], time() + (86400 * 30), "/");
 
+            echo "<script> alert('logado como " . $username . "'); </script>";
+
             $return_url = isset($_GET['return']) ? $_GET['return'] : $url;
-            header("Location: $return_url");
+            echo "<script> window.location = '$url'</script>";
             exit;
         } else {
             echo "<script> alert('Nome ou senha inválidos'); </script>";
@@ -109,7 +111,7 @@ include('php/configuraçoes.php');
 
     <div class="login-container">
         <h1>Login</h1>
-        <form class="login-form" method="POST" onsubmit="showLoadingScreen()">
+        <form class="login-form" method="POST">
             <div class="form-group">
                 <label for="username">Usuário:</label>
                 <input type="text" id="username" name="username" placeholder="Digite seu usuário" required>
