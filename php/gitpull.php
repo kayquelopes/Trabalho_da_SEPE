@@ -1,5 +1,5 @@
 <?php
 
-exec("msg mathe Commit detectado");
+exec("cd C:/nginx/html/Trabalho_da_SEPE && git pull");
 
 ?>
