@@ -612,7 +612,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/Trabalho_da_SEPE/templates/main.php';
         border-radius: 10px;
         transition: all .25s ease-in-out;
         cursor: pointer;
-        width: 212px;
+        width: 220px;
         height: 250px;
     }
 
@@ -758,14 +758,11 @@ if ($result->num_rows > 0) {
             
             <p style="font-size: 18px; margin-top:5px">' . $row["title"] . '</p>
         </div>
-        <a href="bliat" class="autor-info-card-group">
-            <div>
-                <img alt="Autor" style="border-radius:50%" class="autor-img-card-group"
-                    src="data:image/jpeg;base64,' . $card_creator_image . '">
-            </div>
-            <div class="autor-info-car-indiv">
+        <a href="' . $url . '/users/verUsuario.php?UserId=' . $row_card_creator['Userid'] . '" class="autor-info-card-group">
+            
+            <div class="autor-info-car-indiv" style="margin:auto">
                         <span class="autor-name-car-indiv">' . $row_card_creator['username'] . '<span
-                        style="font-size: 13px;color: gray;">&bull; ' . $dataFormatada . '</span></span>
+                        style="font-size: 13px;color: gray;">&nbsp;&bull; ' . $dataFormatada . '</span></span>
 
             </div>
 </a>
