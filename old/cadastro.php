@@ -121,7 +121,7 @@
         </div>
         <div class="form-group">
             <label for="username">Nome de Usuário:</label>
-            <input type="text" id="username" name="username" placeholder="Digite seu nome de usuário" required pattern="[a-z0-9_]+">
+            <input type="text" id="username" name="username" placeholder="Digite seu nome de usuário" required pattern="[a-z0-9_.]+">
             <label for="username" style="font-size:0.7rem">(somente letras minúsculas e números e sem espaços)</label>
         </div>
         <div class="form-group">
