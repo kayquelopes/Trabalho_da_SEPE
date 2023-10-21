@@ -1,4 +1,7 @@
-<pre>Política de Uso de Cookies - Geographic World
+<?php
+include $_SERVER['DOCUMENT_ROOT'] . '/Trabalho_da_SEPE/templates/main.php';
+?>
+Política de Uso de Cookies - Geographic World
 
 Bem-vindo ao Geographic World! Esta página descreve como utilizamos cookies em nosso site para melhorar sua experiência de usuário e garantir a segurança de sua conta. Os cookies são pequenos arquivos de texto que são armazenados em seu dispositivo quando você visita nosso site.
 
@@ -16,4 +19,4 @@ Se você tiver alguma dúvida ou preocupação sobre o uso de cookies em nosso s
 
 Esta política de uso de cookies está sujeita a revisões periódicas para garantir que reflita nossas práticas atuais. A última revisão foi realizada em [Inserir a data da última revisão].
 
-Agradecemos por escolher o Geographic World como sua fonte de informações geográficas.</pre>
+Agradecemos por escolher o Geographic World como sua fonte de informações geográficas.

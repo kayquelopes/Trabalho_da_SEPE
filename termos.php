@@ -1,4 +1,8 @@
-<pre>Termos e Condições - Geographic World
+<?php
+include $_SERVER['DOCUMENT_ROOT'] . '/Trabalho_da_SEPE/templates/main.php';
+?>
+
+Termos e Condições - Geographic World
 
 Bem-vindo aos Termos e Condições de uso do site Geographic World. Agradecemos por escolher nossa plataforma para acessar informações sobre o conteudo de geografia. Ao utilizar nossos serviços, você concorda com os seguintes termos e condições:
 
@@ -39,5 +43,3 @@ Ao usar o Geographic World, você concorda em cumprir e respeitar estes termos e
 Estas políticas garantem a integridade do nosso ambiente online e ajudam a evitar qualquer duplicação de informações de usuário. Por favor, esteja ciente de que a violação dessas políticas pode resultar em medidas apropriadas, incluindo o banimento de contas ou denuncia as autoridades locais.
 
 Estes termos e condições estão sujeitos às leis aplicáveis. Caso tenha alguma dúvida ou preocupação, entre em contato conosco através de nossas informações de contato disponíveis no site.
-
-</pre>

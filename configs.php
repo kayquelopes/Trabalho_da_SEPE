@@ -1,8 +1,8 @@
 <?php
 //database
-$endereco = "localhost";
-$usuario = "root";
-$senha = "E20FBE03";
+$endereco = "sepe.hythelis.me";
+$usuario = "sepe";
+$senha = "SepeSenha123@";
 $dtbs = "sepe";
 
 ?>
