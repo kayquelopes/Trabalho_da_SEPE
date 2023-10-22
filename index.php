@@ -661,6 +661,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/Trabalho_da_SEPE/templates/main.php';
         gap: 10px;
         justify-content: center;
         flex-wrap: wrap;
+        max-width: 750px;
+        margin: auto;
     }
     @keyframes card-indiv {
         from {
