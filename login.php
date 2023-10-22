@@ -1,45 +1,4 @@
-<?php
 
-include('php/configuraçoes.php');
-
-    if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
- 
-        $return_url = isset($_GET['return']) ? $_GET['return'] : $url;
-        header("Location: $return_url");
-        exit;
-    } elseif (isset($_POST['username']) && isset($_POST['password'])) {
-        
-
-        $HashUsername = strtolower(trim($_POST['username']));
-        $username = mysqli_real_escape_string($database, $HashUsername);
-        $password = mysqli_real_escape_string($database, $_POST['password']);
-        $password = hash('sha256', $password);
-
-        $query = "SELECT * FROM users WHERE username='$username' AND password='$password'";
-        $results = mysqli_query($database, $query);
-
-        if (mysqli_num_rows($results) == 1) {
-            $row = mysqli_fetch_assoc($results);
-
-            setcookie('loggedin', true, time() + (86400 * 30), "/");
-            setcookie('UserId', $row['Userid'], time() + (86400 * 30), "/");
-            setcookie('upaxmn', $row['upaxmn'], time() + (86400 * 30), "/");
-            setcookie('upaymn', $row['upaymn'], time() + (86400 * 30), "/");
-            setcookie('upazmn', $row['upazmn'], time() + (86400 * 30), "/");
-
-            echo "<script> alert('logado como " . $username . "'); </script>";
-
-            $return_url = isset($_GET['return']) ? $_GET['return'] : $url;
-            echo "<script> window.location = '$url'</script>";
-            exit;
-        } else {
-            echo "<script> alert('Nome ou senha inválidos'); </script>";
-        }
-    }
-
- 
-?>
-    
     <script>
         window.addEventListener('DOMContentLoaded', function () {
             var loginElement = document.getElementById('login');

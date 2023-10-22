@@ -20,7 +20,7 @@
 
                 $.ajax({
                     type: 'POST',
-                    url: 'php/cadastro-send.php',
+                    url: 'cadastro.php',
                     data: $(this).serialize(),
                     success: function (response) {
                         if (response === "Error: Email") {
