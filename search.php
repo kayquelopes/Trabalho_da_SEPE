@@ -1,4 +1,5 @@
 <?php
+//copyright Matheus Lopes
 include $_SERVER['DOCUMENT_ROOT'] . '/Trabalho_da_SEPE/templates/main.php';
 
 if (isset($_GET['query'])) {
@@ -218,3 +219,6 @@ if (isset($_GET['query'])) {
     });
   });
 </script>
+<?php
+//copyright Matheus Lopes
+?>

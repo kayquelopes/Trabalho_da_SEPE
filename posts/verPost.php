@@ -1,5 +1,5 @@
 <?php
-
+//copyright Matheus Lopes
 include $_SERVER['DOCUMENT_ROOT'] . '/Trabalho_da_SEPE/templates/main.php';
 if (isset($_GET['PageId']) && $_GET['PageId'] != null) {
     $Pageid = $_GET['PageId'];
@@ -373,4 +373,5 @@ if (isset($_GET['PageId']) && $_GET['PageId'] != null) {
 </main>
 <?php
 include $_SERVER['DOCUMENT_ROOT'] . '/Trabalho_da_SEPE/templates/footer.php';
+//copyright Matheus Lopes
 ?>

@@ -1,4 +1,5 @@
 <?php
+//copyright Matheus Lopes
 $endereco = $_SERVER['HTTP_HOST'];
 $protocolo = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' : 'http://';
 $url = $protocolo . $endereco;
@@ -1398,4 +1399,8 @@ $url = $protocolo . $endereco;
     <div class="conteudo2" id="conteudo2">
       <?php
 
-      // não fechado pois é pra fechar nos includes?>
+      // não fechado pois é pra fechar nos includes
+      
+      
+      //copyright Matheus Lopes
+      ?>

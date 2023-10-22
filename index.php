@@ -1,4 +1,5 @@
 <?php
+//copyright Matheus Lopes
 include $_SERVER['DOCUMENT_ROOT'] . '/Trabalho_da_SEPE/templates/main.php';
 ?>
 
@@ -1032,4 +1033,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/Trabalho_da_SEPE/templates/footer.php';
 </body>
 
 </html>
-<?php $database->close(); ?>
+<?php 
+$database->close(); 
+//copyright Matheus Lopes
+?>

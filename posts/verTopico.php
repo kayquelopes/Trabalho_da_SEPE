@@ -1,5 +1,5 @@
 <?php
-
+//copyright Matheus Lopes
 include $_SERVER['DOCUMENT_ROOT'] . '/Trabalho_da_SEPE/templates/main.php';
 if (isset($_GET['TopicoName']) && $_GET['TopicoName'] != null) {
     $TopicoName = $_GET['TopicoName'];
@@ -164,3 +164,6 @@ if (isset($_GET['TopicoName']) && $_GET['TopicoName'] != null) {
         });
     });
 </script>
+<?php
+//copyright Matheus Lopes
+?>

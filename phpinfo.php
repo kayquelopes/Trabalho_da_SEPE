@@ -1,5 +1,6 @@
 <?php
 
+
 phpinfo();
 
 foreach ($_SERVER as $key => $value) {
